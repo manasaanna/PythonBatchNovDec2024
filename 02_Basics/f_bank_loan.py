@@ -27,3 +27,5 @@ final_amt = initial_amt + smpl_interest
 
 print(final_amt)
 
+
+

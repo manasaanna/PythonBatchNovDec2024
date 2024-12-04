@@ -12,4 +12,20 @@ Algo
 
 """
 
-test_string = input()
+test_string = input("Enter any string - ")
+print("test string = ", test_string)
+
+#reverse string
+reverse_string = test_string[::-1]
+print("reverse string = ", reverse_string)
+
+print(test_string == reverse_string)
+
+if test_string == reverse_string:
+    print(test_string, "is palindrome")
+else:
+    print(test_string,'is not a palindrome')
+    
+
+
+
